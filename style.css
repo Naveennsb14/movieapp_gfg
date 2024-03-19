@@ -1,0 +1,81 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: #191919;
+    --card-bg: #064663;
+    --text-color-primary: #fafafa;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: sans-serif;
+}
+
+.header{
+    padding: 2rem;
+}
+
+.heading-1{
+    font-size: 3rem;
+    color: var(--text-color-primary)
+    
+}
+
+.main{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 18rem;
+    border-radius: 4px;
+    background-color: var(--card-bg);
+}
+
+.card-image-container{
+    width: 100%;
+    height: 18rem;
+}
+
+.card-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: center center;
+}
+
+.movie-details{
+    margin: 10px 0;
+    color: var(--text-color-primary);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title{
+    font-size: 1.1rem;
+} 
+
+.genre{
+    font-size: 0.875rem;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-between;
+}
+
+.star-rating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
